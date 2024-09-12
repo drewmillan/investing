@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Blog Name</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Your Blog Name</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="categories.html">Categories</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="featured-post">
+            <h2>Featured Post Title</h2>
+            <p>Excerpt from the featured post...</p>
+            <a href="post.html">Read more</a>
+        </section>
+        <section class="posts">
+            <article>
+                <h2>Post Title</h2>
+                <p>Excerpt from the post...</p>
+                <a href="post.html">Read more</a>
+            </article>
+            <!-- Repeat for more posts -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Your Blog Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
